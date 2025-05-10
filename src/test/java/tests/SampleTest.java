@@ -8,7 +8,7 @@ public class SampleTest extends BaseTest {
 
     @Test
     public void verifyTitle() {
-        page.navigate("https://example.com");
+        page.navigate("https://google.com");
         String title = page.title();
         System.out.println("Page Title: " + title);
         Assert.assertEquals(title, "Example Domain");
